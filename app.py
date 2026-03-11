@@ -872,7 +872,7 @@ elif tab_selection == "🤖 AI Assistant":
         if submit_button:
             try:
                 payload = {"name": input_name, "number": input_number}
-                response = requests.post("http://localhost:5000/api/data", json=payload)
+                response = requests.post("https://ai-food-backend-vlw6.onrender.com/api/data", json=payload)
                 
                 if response.status_code == 200:
                     st.success("Successfully received response from Node.js backend!")
