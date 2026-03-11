@@ -1,0 +1,41 @@
+Store,Product Name,Category,Current Stock,Reorder Level,Unit Price,Supplier,Status,Waste Risk %
+Store A - Downtown,Apples,Fresh Produce,79,24,4.46,Supplier C,Active,35
+Store A - Downtown,Bananas,Fresh Produce,47,16,5.85,Supplier D,Active,61
+Store A - Downtown,Lettuce,Fresh Produce,64,11,10.73,Supplier B,Active,81
+Store A - Downtown,Tomatoes,Fresh Produce,36,12,2.92,Supplier C,Active,72
+Store A - Downtown,Milk,Dairy,67,21,6.59,Supplier D,Active,61
+Store A - Downtown,Cheese,Dairy,95,18,14.46,Supplier D,Active,49
+Store A - Downtown,Yogurt,Dairy,66,8,6.0,Supplier D,Active,61
+Store A - Downtown,Chicken,Meat,78,7,12.91,Supplier A,Active,37
+Store A - Downtown,Beef,Meat,22,21,14.85,Supplier B,Active,24
+Store A - Downtown,Bread,Bakery,28,21,14.2,Supplier A,Active,46
+Store B - Mall,Apples,Fresh Produce,24,16,14.67,Supplier B,Active,0
+Store B - Mall,Bananas,Fresh Produce,28,15,1.49,Supplier D,Active,0
+Store B - Mall,Lettuce,Fresh Produce,69,17,4.29,Supplier B,Active,0
+Store B - Mall,Tomatoes,Fresh Produce,61,18,2.42,Supplier D,Active,0
+Store B - Mall,Milk,Dairy,37,19,11.45,Supplier C,Active,0
+Store B - Mall,Cheese,Dairy,32,15,3.49,Supplier B,Active,0
+Store B - Mall,Yogurt,Dairy,72,17,6.03,Supplier A,Active,0
+Store B - Mall,Chicken,Meat,54,13,5.81,Supplier C,Active,0
+Store B - Mall,Beef,Meat,18,7,11.52,Supplier C,Active,0
+Store B - Mall,Bread,Bakery,38,24,0.56,Supplier B,Active,0
+Store C - Suburb,Apples,Fresh Produce,43,10,1.91,Supplier B,Active,0
+Store C - Suburb,Bananas,Fresh Produce,50,8,14.94,Supplier B,Active,0
+Store C - Suburb,Lettuce,Fresh Produce,96,11,9.22,Supplier A,Active,0
+Store C - Suburb,Tomatoes,Fresh Produce,13,9,4.22,Supplier A,Active,0
+Store C - Suburb,Milk,Dairy,82,6,11.69,Supplier A,Active,0
+Store C - Suburb,Cheese,Dairy,27,21,5.89,Supplier B,Active,0
+Store C - Suburb,Yogurt,Dairy,14,11,9.47,Supplier B,Active,0
+Store C - Suburb,Chicken,Meat,74,5,1.71,Supplier B,Active,0
+Store C - Suburb,Beef,Meat,20,11,6.13,Supplier D,Active,0
+Store C - Suburb,Bread,Bakery,24,16,3.7,Supplier A,Active,0
+Store D - Airport,Apples,Fresh Produce,66,6,11.82,Supplier A,Active,0
+Store D - Airport,Bananas,Fresh Produce,85,14,13.82,Supplier C,Active,0
+Store D - Airport,Lettuce,Fresh Produce,67,21,3.06,Supplier C,Active,0
+Store D - Airport,Tomatoes,Fresh Produce,25,16,11.81,Supplier C,Active,0
+Store D - Airport,Milk,Dairy,78,24,4.24,Supplier C,Active,0
+Store D - Airport,Cheese,Dairy,39,16,3.63,Supplier B,Active,0
+Store D - Airport,Yogurt,Dairy,47,13,10.8,Supplier C,Active,0
+Store D - Airport,Chicken,Meat,49,22,3.59,Supplier C,Active,0
+Store D - Airport,Beef,Meat,84,7,13.68,Supplier B,Active,0
+Store D - Airport,Bread,Bakery,33,18,3.27,Supplier B,Active,0
