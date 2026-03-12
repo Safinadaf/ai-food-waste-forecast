@@ -428,6 +428,8 @@ class ForecastEngine:
         try:
             sales_df = pd.read_csv("data/sales_data.csv")
             sales_df['Date'] = pd.to_datetime(sales_df['Date'])
+            sales_df['Week'] = sales_df['Date'].dt.strftime('%Y-W%U')
+            sales_df['Month'] = sales_df['Date'].dt.strftime('%Y-%m')
             
             store_sales = sales_df[sales_df['Store'] == store] if 'Store' in sales_df.columns else sales_df
             
@@ -519,8 +521,11 @@ class ForecastEngine:
         """Generate comprehensive sales report"""
         try:
             sales_df = pd.read_csv("data/sales_data.csv")
-            store_sales = sales_df[sales_df['Store'] == store] if 'Store' in sales_df.columns else sales_df
-            
+
+            sales_df['Store'] = sales_df['Store'].astype(str).str.strip()
+            store = str(store).strip()
+
+            store_sales = sales_df[sales_df['Store'] == store]
             if store_sales.empty:
                 return pd.DataFrame()
             
@@ -555,7 +560,7 @@ class ForecastEngine:
         try:
             # Load existing waste data
             try:
-                waste_df = pd.read_csv("data/waste_data.csv")
+                waste_df = pd.read_csv("./data/waste_data.csv")
             except FileNotFoundError:
                 waste_df = pd.DataFrame(columns=["Date", "Store", "Product", "Quantity", "Unit", "Reason", "Value", "Notes"])
             
