@@ -106,7 +106,10 @@ class ForecastEngine:
             if not product_waste.empty:
                 # Calculate waste rate based on historical data
                 recent_waste = product_waste['Quantity'].sum()
-                recent_sales = historical_data['Actual_Sales'].tail(7).sum()  # Last 7 days
+                if 'Actual_Sales' in historical_data.columns:
+                    recent_sales = historical_data['Actual_Sales'].tail(7).sum()
+                else:
+                    recent_sales = 0
                 
                 if recent_sales > 0:
                     waste_rate = (recent_waste / recent_sales) * 100

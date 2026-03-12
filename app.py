@@ -160,6 +160,7 @@ elif tab_selection == "📊 Forecast Dashboard":
         
         if not forecast_data.empty:
             st.subheader(f"📈 {forecast_period}'s Demand Predictions")
+            st.info("AI confidence shows how reliable the prediction is based on historical demand patterns and past sales trends.")
             
             # Session state for forecast edits
             if 'forecast_edits' not in st.session_state:
@@ -844,22 +845,43 @@ elif tab_selection == "🤖 AI Assistant":
     
     # Quick question buttons
     st.subheader("Quick Questions")
-    col1, col2, col3 = st.columns(3)
-    
-    with col1:
-        if st.button("What products might go to waste tomorrow?"):
-            st.session_state.chat_history.append({"role": "user", "content": "What products might go to waste tomorrow?"})
-            st.rerun()
-    
-    with col2:
-        if st.button("Show me this week's waste patterns"):
-            st.session_state.chat_history.append({"role": "user", "content": "Show me this week's waste patterns"})
-            st.rerun()
-    
-    with col3:
-        if st.button("How can I reduce food waste?"):
-            st.session_state.chat_history.append({"role": "user", "content": "How can I reduce food waste?"})
-            st.rerun()
+
+    col1, col2, col3, col4 = st.columns(4)
+
+    if col1.button("What products might go to waste tomorrow?"):
+        st.session_state["pending_prompt"] = "What products might go to waste tomorrow?"
+
+    if col2.button("Show me this week's waste patterns"):
+        st.session_state["pending_prompt"] = "Show me this week's waste patterns"
+
+    if col3.button("How can I reduce food waste?"):
+        st.session_state["pending_prompt"] = "How can I reduce food waste?"
+
+    if col4.button("What should I reorder today?"):
+        st.session_state["pending_prompt"] = "What should I reorder today?"
+
+    if "pending_prompt" in st.session_state:
+
+        prompt = st.session_state["pending_prompt"]
+        del st.session_state["pending_prompt"]
+
+    # add user message
+        st.session_state.chat_history.append({
+            "role": "user",
+            "content": prompt
+        })
+
+        context_data = ai_assistant.get_store_context(selected_store)
+
+        response = ai_assistant.get_response(prompt, context_data)
+
+    # add AI response
+        st.session_state.chat_history.append({
+            "role": "assistant",
+            "content": response
+        })
+
+        st.rerun()
     
     st.subheader("Node.js Backend Interaction")
     with st.form("node_backend_form"):

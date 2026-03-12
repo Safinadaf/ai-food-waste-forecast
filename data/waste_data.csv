@@ -1,1 +1,5 @@
 Date,Store,Product,Quantity,Unit,Reason
+2026-03-10,Store A - Downtown,Bananas,5,kg,Expired
+2026-03-11,Store A - Downtown,Bread,3,pieces,Overstock
+2026-03-12,Store B - Mall,Milk,2,liters,Expired
+2026-03-12,Store C - Suburb,Lettuce,4,kg,Damaged

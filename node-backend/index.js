@@ -12,7 +12,9 @@ app.post('/api/data', (req, res) => {
 
     // Process or compute something
     const result = {
-        message: `Hello ${data.name}, your number squared is ${data.number * data.number}`
+    message: `Hello ${data.name}. Based on current demand analysis, sales may increase by ${data.number}% tomorrow.`,
+    recommendation: "Consider increasing stock for high demand products like milk, bread, and bananas.",
+    system: "AI Smart Forecast Backend"
     };
 
     res.json(result);

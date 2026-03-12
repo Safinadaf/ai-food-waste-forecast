@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "id": 1,
+    "name": "Weekend Market Festival",
+    "location": "Downtown",
+    "date": "2026-03-14",
+    "impact": "High",
+    "description": "Large weekend crowd expected",
+    "store": "Store A - Downtown"
+  },
+  {
+    "id": 2,
+    "name": "Local School Event",
+    "location": "Mall Area",
+    "date": "2026-03-15",
+    "impact": "Medium",
+    "description": "Increased snack demand",
+    "store": "Store B - Mall"
+  }
+]
