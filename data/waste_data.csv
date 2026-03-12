@@ -1,5 +1,26 @@
 Date,Store,Product,Quantity,Unit,Reason
-2026-03-10,Store A - Downtown,Bananas,5,kg,Expired
-2026-03-11,Store A - Downtown,Bread,3,pieces,Overstock
-2026-03-12,Store B - Mall,Milk,2,liters,Expired
-2026-03-12,Store C - Suburb,Lettuce,4,kg,Damaged
+2026-03-01,Store A - Downtown,Bananas,12,kg,Overripe
+2026-03-01,Store A - Downtown,Lettuce,5,kg,Expired
+2026-03-01,Store A - Downtown,Bread,6,pcs,Expired
+
+2026-03-02,Store A - Downtown,Apples,4,kg,Damaged
+2026-03-02,Store A - Downtown,Milk,3,liters,Expired
+2026-03-02,Store A - Downtown,Tomatoes,7,kg,Overripe
+
+2026-03-03,Store A - Downtown,Bananas,8,kg,Overstock
+2026-03-03,Store A - Downtown,Cheese,2,kg,Spoiled
+
+2026-03-04,Store B - Mall,Bread,5,pcs,Expired
+2026-03-04,Store B - Mall,Milk,4,liters,Expired
+2026-03-04,Store B - Mall,Apples,3,kg,Damaged
+
+2026-03-05,Store B - Mall,Lettuce,6,kg,Overripe
+2026-03-05,Store B - Mall,Tomatoes,4,kg,Spoiled
+
+2026-03-06,Store C - Suburb,Bananas,7,kg,Overripe
+2026-03-06,Store C - Suburb,Bread,3,pcs,Expired
+2026-03-06,Store C - Suburb,Milk,2,liters,Expired
+
+2026-03-07,Store D - Airport,Apples,4,kg,Damaged
+2026-03-07,Store D - Airport,Cheese,3,kg,Spoiled
+2026-03-07,Store D - Airport,Bananas,9,kg,Overripe
