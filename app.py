@@ -37,6 +37,7 @@ ai_assistant = init_ai_assistant()
 st.title("🧠 AI-Powered Smart Forecasting for Zero Food Waste")
 st.markdown("### Intelligent Dashboard for Retail Store Managers")
 
+st.caption("Version: March 12 Demo Build")
 # Sidebar for navigation
 st.sidebar.title("Navigation")
 tab_selection = st.sidebar.radio(
