@@ -1,1 +1,43 @@
 Date,Store,Product,Actual_Sales,Predicted_Sales
+Date,Store,Product,Actual_Sales,Predicted_Sales
+2026-03-01,Store A - Downtown,Apples,120,115
+2026-03-01,Store A - Downtown,Bananas,140,130
+2026-03-01,Store A - Downtown,Bread,90,85
+2026-03-01,Store A - Downtown,Milk,110,105
+2026-03-01,Store A - Downtown,Cheese,70,65
+
+2026-03-02,Store A - Downtown,Apples,130,120
+2026-03-02,Store A - Downtown,Bananas,150,140
+2026-03-02,Store A - Downtown,Bread,95,90
+2026-03-02,Store A - Downtown,Milk,120,110
+2026-03-02,Store A - Downtown,Cheese,80,75
+
+2026-03-03,Store A - Downtown,Apples,125,118
+2026-03-03,Store A - Downtown,Bananas,160,150
+2026-03-03,Store A - Downtown,Bread,100,95
+2026-03-03,Store A - Downtown,Milk,115,108
+2026-03-03,Store A - Downtown,Cheese,75,70
+
+2026-03-04,Store B - Mall,Apples,100,95
+2026-03-04,Store B - Mall,Bananas,120,110
+2026-03-04,Store B - Mall,Bread,85,80
+2026-03-04,Store B - Mall,Milk,95,90
+2026-03-04,Store B - Mall,Cheese,60,55
+
+2026-03-05,Store B - Mall,Apples,105,100
+2026-03-05,Store B - Mall,Bananas,125,115
+2026-03-05,Store B - Mall,Bread,88,82
+2026-03-05,Store B - Mall,Milk,100,94
+2026-03-05,Store B - Mall,Cheese,65,60
+
+2026-03-06,Store C - Suburb,Apples,90,85
+2026-03-06,Store C - Suburb,Bananas,110,105
+2026-03-06,Store C - Suburb,Bread,70,68
+2026-03-06,Store C - Suburb,Milk,85,80
+2026-03-06,Store C - Suburb,Cheese,55,50
+
+2026-03-07,Store D - Airport,Apples,140,135
+2026-03-07,Store D - Airport,Bananas,160,150
+2026-03-07,Store D - Airport,Bread,120,115
+2026-03-07,Store D - Airport,Milk,130,125
+2026-03-07,Store D - Airport,Cheese,90,85
