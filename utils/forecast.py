@@ -435,8 +435,7 @@ class ForecastEngine:
             
             if store_sales.empty:
                 return pd.DataFrame()
-            
-            # Group by period
+             # Group by period
             if period == "Daily":
                 grouped = store_sales.groupby('Date')['Actual_Sales'].sum().reset_index()
             elif period == "Weekly":
@@ -453,6 +452,57 @@ class ForecastEngine:
         except Exception as e:
             print(f"Error getting sales analytics: {e}")
             return pd.DataFrame()
+            
+    def get_waste_analytics(self, store, period):
+
+        try:
+            waste_df = pd.read_csv("data/waste_data.csv")
+
+            waste_df['Date'] = pd.to_datetime(waste_df['Date'])
+
+            waste_df['Week'] = waste_df['Date'].dt.strftime('%Y-W%U')
+            waste_df['Month'] = waste_df['Date'].dt.strftime('%Y-%m')
+
+            store_waste = waste_df[waste_df['Store'] == store]
+
+            if store_waste.empty:
+                return pd.DataFrame()
+
+            if period == "Daily":
+                grouped = store_waste.groupby('Date')['Quantity'].sum().reset_index()
+
+            elif period == "Weekly":
+                grouped = store_waste.groupby('Week')['Quantity'].sum().reset_index()
+
+            else:
+                grouped = store_waste.groupby('Month')['Quantity'].sum().reset_index()
+
+            return grouped
+
+        except Exception as e:
+            print("Waste analytics error:", e)
+            return pd.DataFrame()
+        
+        
+    def get_combined_analytics(self, store, period):
+
+        sales = self.get_sales_analytics(store, period)
+        waste = self.get_waste_analytics(store, period)
+
+        if sales.empty and waste.empty:
+            return pd.DataFrame()
+
+        if not waste.empty:
+            waste.rename(columns={"Quantity": "Waste"}, inplace=True)
+
+        if not sales.empty:
+            sales.rename(columns={"Actual_Sales": "Sales"}, inplace=True)
+
+        combined = pd.merge(sales, waste, how="outer")
+
+        return combined
+            
+           
     
     def get_restock_alerts(self, store):
         """Generate restock alerts for low inventory items"""

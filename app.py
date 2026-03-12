@@ -266,7 +266,14 @@ elif tab_selection == "📈 Analytics & Reports":
         report_type = st.selectbox("Report Type", ["Sales Report", "Waste Report", "Combined Report"])
     
     # Get analytics data
-    analytics_data = forecast_engine.get_sales_analytics(selected_store, analysis_period)
+    if report_type == "Sales Report":
+        analytics_data = forecast_engine.get_sales_analytics(selected_store, analysis_period)
+
+    elif report_type == "Waste Report":
+        analytics_data = forecast_engine.get_waste_analytics(selected_store, analysis_period)
+
+    else:
+        analytics_data = forecast_engine.get_combined_analytics(selected_store, analysis_period)
     
     if not analytics_data.empty:
         col1, col2 = st.columns([2, 1])
