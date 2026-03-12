@@ -15,7 +15,7 @@ class AIAssistant:
         elif os.getenv("OPENAI_API_KEY"):
             return "openai"
         else:
-            return None
+             return "demo"
     
     def initialize_client(self):
         """Initialize the appropriate AI client"""
