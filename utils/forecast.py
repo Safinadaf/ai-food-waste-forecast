@@ -382,15 +382,16 @@ class ForecastEngine:
     def get_forecast_accuracy(self, store):
         """Calculate forecast accuracy metrics"""
         try:
-            sales_df = pd.read_csv("data/sales_data.csv")
-            store_sales = sales_df[sales_df['Store'] == store] if 'Store' in sales_df.columns else sales_df
+            sales_df = pd.read_csv("./data/sales_data.csv")
+            sales_df['Store'] = sales_df['Store'].astype(str).str.strip()
+            store = str(store).strip()
+            store_data = sales_df[sales_df['Store'] == store]
             
-            if store_sales.empty:
+            if store_data.empty:
                 return None
-            
-            # Calculate accuracy for different periods
-            recent_data = store_sales.tail(7)  # Last 7 days
-            monthly_data = store_sales.tail(30)  # Last 30 days
+
+            recent_data = store_data.tail(7)
+            monthly_data = store_data.tail(30)
             
             def calculate_accuracy(data):
                 if data.empty or 'Predicted_Sales' not in data.columns:
