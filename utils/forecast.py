@@ -54,7 +54,7 @@ class ForecastEngine:
         """Get today's forecast for a specific store"""
         try:
             # Load historical sales data
-            sales_df = pd.read_csv("data/sales_data.csv")
+            sales_df = pd.read_csv("./data/sales_data.csv")
             
             # Filter for the selected store
             store_data = sales_df[sales_df['Store'] == store]
@@ -95,7 +95,7 @@ class ForecastEngine:
         """Calculate waste risk percentage for a product"""
         try:
             # Try to load waste data
-            waste_df = pd.read_csv("data/waste_data.csv")
+            waste_df = pd.read_csv("./data/waste_data.csv")
             
             # Filter waste data for this product and store
             product_waste = waste_df[
@@ -141,7 +141,7 @@ class ForecastEngine:
     def get_store_summary(self, store):
         """Get summary statistics for a store"""
         try:
-            sales_df = pd.read_csv("data/sales_data.csv")
+            sales_df = pd.read_csv("./data/sales_data.csv")
             store_data = sales_df[sales_df['Store'] == store]
             
             if store_data.empty:

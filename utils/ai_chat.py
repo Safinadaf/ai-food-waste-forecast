@@ -48,7 +48,7 @@ class AIAssistant:
         
         try:
             # Load sales data
-            sales_df = pd.read_csv("data/sales_data.csv")
+            sales_df = pd.read_csv("./data/sales_data.csv")
             store_sales = sales_df[sales_df['Store'] == store] if 'Store' in sales_df.columns else sales_df
             
             if not store_sales.empty:
