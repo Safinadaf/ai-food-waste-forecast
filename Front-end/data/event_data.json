@@ -1,0 +1,322 @@
+[
+  {
+    "id": 1,
+    "name": "Summer Festival",
+    "location": "City Park",
+    "date": "2026-06-05",
+    "impact": "High",
+    "description": "Summer Festival near Store A - Downtown.",
+    "store": "Store A - Downtown",
+    "created_at": "2026-05-07 00:22:49.918093"
+  },
+  {
+    "id": 2,
+    "name": "Marathon Run",
+    "location": "Downtown Street",
+    "date": "2026-04-11",
+    "impact": "Medium",
+    "description": "Marathon Run near Store A - Downtown.",
+    "store": "Store A - Downtown",
+    "created_at": "2026-05-07 00:22:49.918093"
+  },
+  {
+    "id": 3,
+    "name": "School Reopening",
+    "location": "Local Schools",
+    "date": "2026-05-19",
+    "impact": "Medium",
+    "description": "School Reopening near Store A - Downtown.",
+    "store": "Store A - Downtown",
+    "created_at": "2026-05-07 00:22:49.918093"
+  },
+  {
+    "id": 4,
+    "name": "Concert Night",
+    "location": "Stadium",
+    "date": "2026-06-07",
+    "impact": "High",
+    "description": "Concert Night near Store A - Downtown.",
+    "store": "Store A - Downtown",
+    "created_at": "2026-05-07 00:22:49.918093"
+  },
+  {
+    "id": 5,
+    "name": "Public Holiday",
+    "location": "Citywide",
+    "date": "2026-04-10",
+    "impact": "High",
+    "description": "Public Holiday near Store A - Downtown.",
+    "store": "Store A - Downtown",
+    "created_at": "2026-05-07 00:22:49.918093"
+  },
+  {
+    "id": 6,
+    "name": "Food Fair",
+    "location": "Exhibition Hall",
+    "date": "2026-04-18",
+    "impact": "Medium",
+    "description": "Food Fair near Store A - Downtown.",
+    "store": "Store A - Downtown",
+    "created_at": "2026-05-07 00:22:49.918093"
+  },
+  {
+    "id": 7,
+    "name": "Sports Finals",
+    "location": "Sports Arena",
+    "date": "2026-06-03",
+    "impact": "High",
+    "description": "Sports Finals near Store A - Downtown.",
+    "store": "Store A - Downtown",
+    "created_at": "2026-05-07 00:22:49.918093"
+  },
+  {
+    "id": 8,
+    "name": "Weekly Market",
+    "location": "Town Square",
+    "date": "2026-06-07",
+    "impact": "Low",
+    "description": "Weekly Market near Store A - Downtown.",
+    "store": "Store A - Downtown",
+    "created_at": "2026-05-07 00:22:49.918093"
+  },
+  {
+    "id": 9,
+    "name": "Summer Festival",
+    "location": "City Park",
+    "date": "2026-04-13",
+    "impact": "High",
+    "description": "Summer Festival near Store B - Mall.",
+    "store": "Store B - Mall",
+    "created_at": "2026-05-07 00:22:49.918093"
+  },
+  {
+    "id": 10,
+    "name": "Marathon Run",
+    "location": "Downtown Street",
+    "date": "2026-04-26",
+    "impact": "Medium",
+    "description": "Marathon Run near Store B - Mall.",
+    "store": "Store B - Mall",
+    "created_at": "2026-05-07 00:22:49.918093"
+  },
+  {
+    "id": 11,
+    "name": "School Reopening",
+    "location": "Local Schools",
+    "date": "2026-05-22",
+    "impact": "Medium",
+    "description": "School Reopening near Store B - Mall.",
+    "store": "Store B - Mall",
+    "created_at": "2026-05-07 00:22:49.918093"
+  },
+  {
+    "id": 12,
+    "name": "Concert Night",
+    "location": "Stadium",
+    "date": "2026-05-17",
+    "impact": "High",
+    "description": "Concert Night near Store B - Mall.",
+    "store": "Store B - Mall",
+    "created_at": "2026-05-07 00:22:49.918093"
+  },
+  {
+    "id": 13,
+    "name": "Public Holiday",
+    "location": "Citywide",
+    "date": "2026-05-15",
+    "impact": "High",
+    "description": "Public Holiday near Store B - Mall.",
+    "store": "Store B - Mall",
+    "created_at": "2026-05-07 00:22:49.918093"
+  },
+  {
+    "id": 14,
+    "name": "Food Fair",
+    "location": "Exhibition Hall",
+    "date": "2026-04-26",
+    "impact": "Medium",
+    "description": "Food Fair near Store B - Mall.",
+    "store": "Store B - Mall",
+    "created_at": "2026-05-07 00:22:49.918093"
+  },
+  {
+    "id": 15,
+    "name": "Sports Finals",
+    "location": "Sports Arena",
+    "date": "2026-05-17",
+    "impact": "High",
+    "description": "Sports Finals near Store B - Mall.",
+    "store": "Store B - Mall",
+    "created_at": "2026-05-07 00:22:49.918093"
+  },
+  {
+    "id": 16,
+    "name": "Weekly Market",
+    "location": "Town Square",
+    "date": "2026-04-10",
+    "impact": "Low",
+    "description": "Weekly Market near Store B - Mall.",
+    "store": "Store B - Mall",
+    "created_at": "2026-05-07 00:22:49.919095"
+  },
+  {
+    "id": 17,
+    "name": "Summer Festival",
+    "location": "City Park",
+    "date": "2026-06-11",
+    "impact": "High",
+    "description": "Summer Festival near Store C - Suburb.",
+    "store": "Store C - Suburb",
+    "created_at": "2026-05-07 00:22:49.919095"
+  },
+  {
+    "id": 18,
+    "name": "Marathon Run",
+    "location": "Downtown Street",
+    "date": "2026-05-17",
+    "impact": "Medium",
+    "description": "Marathon Run near Store C - Suburb.",
+    "store": "Store C - Suburb",
+    "created_at": "2026-05-07 00:22:49.919095"
+  },
+  {
+    "id": 19,
+    "name": "School Reopening",
+    "location": "Local Schools",
+    "date": "2026-05-04",
+    "impact": "Medium",
+    "description": "School Reopening near Store C - Suburb.",
+    "store": "Store C - Suburb",
+    "created_at": "2026-05-07 00:22:49.919095"
+  },
+  {
+    "id": 20,
+    "name": "Concert Night",
+    "location": "Stadium",
+    "date": "2026-05-04",
+    "impact": "High",
+    "description": "Concert Night near Store C - Suburb.",
+    "store": "Store C - Suburb",
+    "created_at": "2026-05-07 00:22:49.919095"
+  },
+  {
+    "id": 21,
+    "name": "Public Holiday",
+    "location": "Citywide",
+    "date": "2026-05-04",
+    "impact": "High",
+    "description": "Public Holiday near Store C - Suburb.",
+    "store": "Store C - Suburb",
+    "created_at": "2026-05-07 00:22:49.919095"
+  },
+  {
+    "id": 22,
+    "name": "Food Fair",
+    "location": "Exhibition Hall",
+    "date": "2026-05-09",
+    "impact": "Medium",
+    "description": "Food Fair near Store C - Suburb.",
+    "store": "Store C - Suburb",
+    "created_at": "2026-05-07 00:22:49.919095"
+  },
+  {
+    "id": 23,
+    "name": "Sports Finals",
+    "location": "Sports Arena",
+    "date": "2026-04-21",
+    "impact": "High",
+    "description": "Sports Finals near Store C - Suburb.",
+    "store": "Store C - Suburb",
+    "created_at": "2026-05-07 00:22:49.919095"
+  },
+  {
+    "id": 24,
+    "name": "Weekly Market",
+    "location": "Town Square",
+    "date": "2026-05-22",
+    "impact": "Low",
+    "description": "Weekly Market near Store C - Suburb.",
+    "store": "Store C - Suburb",
+    "created_at": "2026-05-07 00:22:49.919095"
+  },
+  {
+    "id": 25,
+    "name": "Summer Festival",
+    "location": "City Park",
+    "date": "2026-04-20",
+    "impact": "High",
+    "description": "Summer Festival near Store D - Airport.",
+    "store": "Store D - Airport",
+    "created_at": "2026-05-07 00:22:49.919095"
+  },
+  {
+    "id": 26,
+    "name": "Marathon Run",
+    "location": "Downtown Street",
+    "date": "2026-04-30",
+    "impact": "Medium",
+    "description": "Marathon Run near Store D - Airport.",
+    "store": "Store D - Airport",
+    "created_at": "2026-05-07 00:22:49.919095"
+  },
+  {
+    "id": 27,
+    "name": "School Reopening",
+    "location": "Local Schools",
+    "date": "2026-06-11",
+    "impact": "Medium",
+    "description": "School Reopening near Store D - Airport.",
+    "store": "Store D - Airport",
+    "created_at": "2026-05-07 00:22:49.919095"
+  },
+  {
+    "id": 28,
+    "name": "Concert Night",
+    "location": "Stadium",
+    "date": "2026-05-19",
+    "impact": "High",
+    "description": "Concert Night near Store D - Airport.",
+    "store": "Store D - Airport",
+    "created_at": "2026-05-07 00:22:49.919095"
+  },
+  {
+    "id": 29,
+    "name": "Public Holiday",
+    "location": "Citywide",
+    "date": "2026-06-13",
+    "impact": "High",
+    "description": "Public Holiday near Store D - Airport.",
+    "store": "Store D - Airport",
+    "created_at": "2026-05-07 00:22:49.919095"
+  },
+  {
+    "id": 30,
+    "name": "Food Fair",
+    "location": "Exhibition Hall",
+    "date": "2026-05-26",
+    "impact": "Medium",
+    "description": "Food Fair near Store D - Airport.",
+    "store": "Store D - Airport",
+    "created_at": "2026-05-07 00:22:49.919095"
+  },
+  {
+    "id": 31,
+    "name": "Sports Finals",
+    "location": "Sports Arena",
+    "date": "2026-06-04",
+    "impact": "High",
+    "description": "Sports Finals near Store D - Airport.",
+    "store": "Store D - Airport",
+    "created_at": "2026-05-07 00:22:49.919095"
+  },
+  {
+    "id": 32,
+    "name": "Weekly Market",
+    "location": "Town Square",
+    "date": "2026-04-13",
+    "impact": "Low",
+    "description": "Weekly Market near Store D - Airport.",
+    "store": "Store D - Airport",
+    "created_at": "2026-05-07 00:22:49.919095"
+  }
+]

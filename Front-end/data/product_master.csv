@@ -1,0 +1,63 @@
+Store,Product Name,Category,Current Stock,Reorder Level,Unit Price,Supplier,Status,Expiry Date,Waste Risk %
+Store A - Downtown,Apples,Fresh Produce,110,29,2.7,GreenLeaf Farms,Active,2026-05-09,73
+Store A - Downtown,Bananas,Fresh Produce,61,19,1.46,DairyBest Ltd.,Active,2026-05-11,77
+Store A - Downtown,Lettuce,Fresh Produce,85,24,1.99,DairyBest Ltd.,Active,2026-05-11,61
+Store A - Downtown,Tomatoes,Fresh Produce,23,20,2.42,DairyBest Ltd.,Active,2026-05-09,57
+Store A - Downtown,Milk,Dairy,114,25,1.75,BakerySupply Co.,Active,2026-05-12,70
+Store A - Downtown,Cheese,Dairy,74,10,4.7,DairyBest Ltd.,Active,2026-05-20,56
+Store A - Downtown,Yogurt,Dairy,96,15,2.43,GreenLeaf Farms,Active,2026-05-10,59
+Store A - Downtown,Chicken,Meat,41,10,6.95,BakerySupply Co.,Active,2026-05-10,94
+Store A - Downtown,Beef,Meat,79,22,11.56,FreshFarm Co.,Active,2026-05-08,76
+Store A - Downtown,Bread,Bakery,50,11,3.2,DairyBest Ltd.,Active,2026-05-12,59
+Store A - Downtown,Oranges,Fresh Produce,40,18,2.29,MeatMaster Inc.,Active,2026-05-08,58
+Store A - Downtown,Carrots,Fresh Produce,91,26,1.59,GreenLeaf Farms,Active,2026-05-14,57
+Store A - Downtown,Salmon,Meat,98,27,12.41,BakerySupply Co.,Active,2026-05-08,75
+Store A - Downtown,Butter,Dairy,106,25,4.48,DairyBest Ltd.,Active,2026-05-12,64
+Store A - Downtown,Muffins,Bakery,36,29,3.89,DairyBest Ltd.,Active,2026-05-10,56
+Store B - Mall,Apples,Fresh Produce,114,15,3.13,BakerySupply Co.,Active,2026-05-11,82
+Store B - Mall,Bananas,Fresh Produce,80,16,1.41,BakerySupply Co.,Active,2026-05-10,77
+Store B - Mall,Lettuce,Fresh Produce,20,27,1.95,MeatMaster Inc.,Active,2026-05-09,72
+Store B - Mall,Tomatoes,Fresh Produce,57,26,2.59,BakerySupply Co.,Active,2026-05-12,84
+Store B - Mall,Milk,Dairy,24,13,1.45,BakerySupply Co.,Active,2026-05-14,53
+Store B - Mall,Cheese,Dairy,95,18,5.97,FreshFarm Co.,Active,2026-05-14,63
+Store B - Mall,Yogurt,Dairy,44,26,2.37,GreenLeaf Farms,Active,2026-05-10,76
+Store B - Mall,Chicken,Meat,67,11,8.69,GreenLeaf Farms,Active,2026-05-08,62
+Store B - Mall,Beef,Meat,19,11,10.04,BakerySupply Co.,Active,2026-05-09,68
+Store B - Mall,Bread,Bakery,113,27,2.57,BakerySupply Co.,Active,2026-05-09,58
+Store B - Mall,Oranges,Fresh Produce,26,21,2.55,GreenLeaf Farms,Active,2026-05-08,69
+Store B - Mall,Carrots,Fresh Produce,39,21,1.84,MeatMaster Inc.,Active,2026-05-14,85
+Store B - Mall,Salmon,Meat,97,20,11.97,FreshFarm Co.,Active,2026-05-08,73
+Store B - Mall,Butter,Dairy,108,13,4.36,GreenLeaf Farms,Active,2026-05-25,58
+Store B - Mall,Muffins,Bakery,111,29,3.38,FreshFarm Co.,Active,2026-05-09,46
+Store C - Suburb,Apples,Fresh Produce,76,10,2.76,BakerySupply Co.,Active,2026-05-10,86
+Store C - Suburb,Bananas,Fresh Produce,90,14,1.18,MeatMaster Inc.,Active,2026-05-08,81
+Store C - Suburb,Lettuce,Fresh Produce,79,20,1.65,FreshFarm Co.,Active,2026-05-08,82
+Store C - Suburb,Tomatoes,Fresh Produce,80,17,2.08,FreshFarm Co.,Active,2026-05-10,85
+Store C - Suburb,Milk,Dairy,48,23,1.39,GreenLeaf Farms,Active,2026-05-14,45
+Store C - Suburb,Cheese,Dairy,46,19,5.25,FreshFarm Co.,Active,2026-05-11,47
+Store C - Suburb,Yogurt,Dairy,54,28,1.91,FreshFarm Co.,Active,2026-05-08,46
+Store C - Suburb,Chicken,Meat,27,17,9.58,FreshFarm Co.,Active,2026-05-09,69
+Store C - Suburb,Beef,Meat,98,14,10.98,BakerySupply Co.,Active,2026-05-09,75
+Store C - Suburb,Bread,Bakery,45,13,2.92,FreshFarm Co.,Active,2026-05-09,70
+Store C - Suburb,Oranges,Fresh Produce,53,29,2.46,FreshFarm Co.,Active,2026-05-17,65
+Store C - Suburb,Carrots,Fresh Produce,70,12,1.4,FreshFarm Co.,Active,2026-05-18,65
+Store C - Suburb,Salmon,Meat,89,17,10.82,BakerySupply Co.,Active,2026-05-09,67
+Store C - Suburb,Butter,Dairy,36,16,4.42,FreshFarm Co.,Active,2026-06-04,51
+Store C - Suburb,Muffins,Bakery,17,25,2.71,MeatMaster Inc.,Active,2026-05-09,51
+Store D - Airport,Apples,Fresh Produce,83,12,2.51,BakerySupply Co.,Active,2026-05-09,81
+Store D - Airport,Bananas,Fresh Produce,40,18,1.17,FreshFarm Co.,Active,2026-05-09,68
+Store D - Airport,Lettuce,Fresh Produce,32,22,2.21,FreshFarm Co.,Active,2026-05-08,62
+Store D - Airport,Tomatoes,Fresh Produce,63,10,2.71,GreenLeaf Farms,Active,2026-05-10,80
+Store D - Airport,Milk,Dairy,29,13,1.69,MeatMaster Inc.,Active,2026-05-13,55
+Store D - Airport,Cheese,Dairy,20,11,6.34,DairyBest Ltd.,Active,2026-05-10,74
+Store D - Airport,Yogurt,Dairy,17,22,2.53,DairyBest Ltd.,Active,2026-05-17,50
+Store D - Airport,Chicken,Meat,24,21,7.45,MeatMaster Inc.,Active,2026-05-09,61
+Store D - Airport,Beef,Meat,61,20,11.64,DairyBest Ltd.,Active,2026-05-11,65
+Store D - Airport,Bread,Bakery,70,15,2.77,MeatMaster Inc.,Active,2026-05-11,55
+Store D - Airport,Oranges,Fresh Produce,82,24,1.87,GreenLeaf Farms,Active,2026-05-10,71
+Store D - Airport,Carrots,Fresh Produce,53,17,1.92,GreenLeaf Farms,Active,2026-05-18,65
+Store D - Airport,Salmon,Meat,22,16,14.65,BakerySupply Co.,Active,2026-05-09,61
+Store D - Airport,Butter,Dairy,10,24,4.12,FreshFarm Co.,Active,2026-06-03,56
+Store D - Airport,Muffins,Bakery,11,29,3.37,GreenLeaf Farms,Active,2026-05-08,50
+Store A - Downtown,123,Fresh Produce,50,15,2.0,11,Active,2026-05-14,0
+Store A - Downtown,masala,Fresh Produce,50,15,2.0,dear me,Active,2026-05-14,0
